@@ -153,6 +153,11 @@ conda create -n mpc_planner --file requirements.txt
 conda activate mpc_planner
 ```
 
+if the error log show `PackagesNotFoundError: The following packages are not available from current channels`, following line:
+```bash 
+conda config --add channels conda-forge
+```
+
 You may have to add the `conda-forge` channel if you do not have it yet: `conda config --append channels conda-forge`.
 
 > **Note:** In the remainder of this readme, leave out `poetry run ...` if you installed with `conda`.
