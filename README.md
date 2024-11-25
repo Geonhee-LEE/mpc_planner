@@ -91,7 +91,7 @@ git clone https://github.com/oscardegroot/ros_tools.git
 
 Guidance planner (for T-MPC) and `decomp_util` (for static obstacle avoidance):
 ```
-git clone https://github.com/oscardegroot/guidance_planner.git
+git clone https://github.com/tud-amr/guidance_planner
 git clone https://github.com/oscardegroot/DecompUtil.git
 ```
 
